@@ -37,6 +37,16 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       }
       chat.antiLink = isEnable
       break
+
+      case 'autoadmin':
+        if (m.isGroup) {
+          if (!(isAdmin || isOwner)) {
+            global.dfail('admin', m, conn)
+            throw false
+          }
+        }
+        chat.autoadmin = isEnable
+        break
       
       case 'nsfw':
       case 'modohorny':
@@ -60,6 +70,9 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 
 *Tipo :* antilink 
 *Descripción :* Des/Activa el *AntiLink* para Grupos
+
+*Tipo :* autoadmin 
+*Descripción :* Des/Activa el *autoadmin* para Grupos
 
 *Tipo :* document 
 *Descripción :* Des/Activa la *Descarga En Documentos* para el Usuario

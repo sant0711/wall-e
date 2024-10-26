@@ -25,10 +25,10 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = ``
-global.author = '{\n "bot": {\n   "name": "Sumi - Sakurasawa",\n     "author": "Danịel",\n   "status_bot": "active"\n }\n}'
-global.wait = '🐢 *Sumi Sakurasawa*'
-global.botname = 'Sumi - Sakurasawa'
-global.textbot = `Powered By Starlights Team`
+global.author = '{\n "bot": {\n   "name": "Santx - Bot ",\n     "author": "Sant",\n   "status_bot": "active"\n }\n}'
+global.wait = '🐢 *Santx Bot*'
+global.botname = 'Santx - Bot '
+global.textbot = `Powered By  Sant Team`
 global.listo = '*🍭 Aqui tiene*'
 global.namechannel = '【 ✯ Starlights Team - Oficial Chanel ✰ 】'
 

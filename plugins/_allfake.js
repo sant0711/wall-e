@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 export async function before(m, { conn }) {
-//let img = await (await fetch(`https://tinyurl.com/2c5hk765`)).buffer()
+//let img = await (await fetch(`https://i.ibb.co/27rdXbJ/bot.jpg`)).buffer()
 let img = catalogo
  global.rcanal = {
     contextInfo: {
@@ -9,7 +9,7 @@ let img = catalogo
     forwardedNewsletterMessageInfo: {
       newsletterJid: "120363206717994793@newsletter",
       serverMessageId: 100,
-      newsletterName: 'Sumi - Sakursawa Channel 🎌',
+      newsletterName: 'Santx - Bot Channel 🎌',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://telegra.ph/file/474de03b8c0cf87231d8e.jpg',
+					thumbnailUrl: 'https://i.ibb.co/27rdXbJ/bot.jpg',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false

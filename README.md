@@ -37,7 +37,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/Santx07/Perfect.git && cd Sumi-Sakurasawa
+git clone https://github.com/Santx07/Perfect.git && cd Santx - bot
 ```
 
 ```bash
@@ -76,7 +76,7 @@ npm start
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - Igna • Bot**</summary><img src="https://qu.ax/CqMG.jpg"></details>
 ------------------------
 ### 💎 FlarexCloud
-> Empiece a usar FlarexCloud para activar **🍭 Sumi - Sakurasawa - MD**
+> Empiece a usar FlarexCloud para activar **🍭 Santx - Bot  - MD**
 
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
 ### Información sobre FlarexCloud
@@ -100,7 +100,7 @@ npm start
 ```bash
 𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐎𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐔𝐍𝐎 𝐏𝐎𝐑 𝐔𝐍𝐎:
 > cd 
-> cd Sumi-Sakurasawa
+> cd Santx - bot
 > npm start
 ```
 -------

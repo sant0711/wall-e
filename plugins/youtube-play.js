@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
     ]
     let [feature, inputs, inputs_, inputs__, inputs___] = text.split(" ")
    // if (!lister.includes(feature)) return conn.reply(m.chat, `*🚩 Ingresa el formato en que deseas descargar más el titulo de un video o musica de YouTube.*\n\nEjemplo : ${usedPrefix + command} *mp3* SUICIDAL-IDOL - ecstacy\n\nFormatos disponibles :\n${usedPrefix + command} *mp3*\n${usedPrefix + command} *mp3doc*\n${usedPrefix + command} *mp4*\n${usedPrefix + command} *mp4doc*`,  m, fake,)
-	  if (command == "play" || command == 'play2') {
+	  if (command == "play3" || command == 'play4') {
             if (!text) return conn.reply(m.chat, `*🚩 Ingresa el titulo de un video o musica de YouTube.*`,  m, rcanal,)
     await m.react('🕓')
     var res = await yts(text)
@@ -247,9 +247,9 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
         console.error(error)
 }}}
 }
-handler.help = ["play"].map(v => v + " <formato> <búsqueda>")
+handler.help = ["Mantenimiento"].map(v => v + " <formato> <búsqueda>")
 handler.tags = ["downloader"]
-handler.command = ['play', 'play2', 'mp3', 'mp4', 'mp3doc', 'mp4doc']
+handler.command = ['play3', 'play4', 'mp3', 'mp4', 'mp3doc', 'mp4doc']
 handler.register = true 
 handler.star = 2
 export default handler

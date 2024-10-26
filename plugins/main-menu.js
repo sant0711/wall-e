@@ -22,6 +22,7 @@ let tags = {
   'owner': 'Creador 😺', 
   'audio': 'Audios 🔉', 
   'advanced': 'Avanzado 💠',
+  'freefire': 'Free Fire ⚡',
 }
 
 const defaultMenu = {

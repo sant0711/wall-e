@@ -53,9 +53,9 @@ const handler = async (m, { conn, args }) => {
     const horaActual = formatTime(new Date()); // Obtener la hora actual sin modificación
 
     const message = `
-*SCRIM*
+🐉✨ 𝕃𝕀𝕊𝕋𝔸 𝕊ℂℝ𝕀𝕄 ✨🐉
 
-𝐇𝐎𝐑𝐀𝐑𝐈𝐎
+⏰ HORA:
 
 🇲🇽 𝐌𝐄𝐗𝐈𝐂𝐎 : ${formatTime(horasEnPais[0])}
 🇨🇴 𝐂𝐎𝐋𝐎𝐌𝐁𝐈𝐀 : ${formatTime(horasEnPais[1])}
@@ -64,17 +64,17 @@ const handler = async (m, { conn, args }) => {
 
 𝐇𝐎𝐑𝐀 𝐀𝐂𝐓𝐔𝐀𝐋 𝐄𝐍 𝐌𝐄𝐗𝐈𝐂𝐎🇲🇽 : ${horaActual}
 
-𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔
+👥 𝔼𝕊ℂ𝕌𝔸𝔻ℝ𝔸 ℙℝ𝕀ℕℂ𝕀ℙ𝔸𝕃
+   🥷 
+   🥷 
+   🥷
+   🥷
 
-👑 ┇ 
-🥷🏻 ┇  
-🥷🏻 ┇ 
-🥷🏻 ┇ 
+🔄 ℝ𝔼𝕊𝔼ℝ𝕍𝔸𝕊
+   🥷 
+   🥷 
 
-
-ㅤʚ 𝐒𝐔𝐏𝐋𝐄𝐍𝐓𝐄:
-🥷🏻 ┇ 
-🥷🏻 ┇
+💪 ¡𝔸 𝕝𝕒 𝕧𝕚𝕔𝕥𝕠𝕣𝕚𝕒, 𝕖𝕢𝕦𝕚𝕡𝕠! 🏆
 `.trim();
     
     conn.sendMessage(m.chat, { text: message }, { quoted: m });

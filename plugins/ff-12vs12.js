@@ -35,31 +35,30 @@ const handler = async (m, { conn, args }) => {
 
     ¬ 𝐉𝐔𝐆𝐀𝐃𝐎𝐑𝐄𝐒 𝐏𝐑𝐄𝐒𝐄𝐍𝐓𝐄𝐒
     
-          𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 1
-    
-    👑 ┇ 
-    🥷🏻 ┇  
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-          
-         𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 2
-    
-    👑 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    
-         𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 3
-    
-    👑 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    
-    ㅤʚ 𝐒𝐔𝐏𝐋𝐄𝐍𝐓𝐄:
-    🥷🏻 ┇ 
-    🥷🏻 ┇
-    `.trim();
+🔺 ESCUADRÓN SOMBRA
+   👑× 
+   🥷🏻× 
+   🥷🏻× 
+   🥷🏻× 
+
+🔻 ESCUADRÓN TORMENTA
+   👑× 
+   🥷🏻× 
+   🥷🏻× 
+   🥷🏻× 
+
+🔺 ESCUADRÓN FÉNIX
+   👑× 
+   🥷🏻× 
+   🥷🏻× 
+   🥷🏻× 
+
+🌟 FUERZAS DE RESERVA
+   🥷🏻× 
+   🥷🏻×
+
+santx bot, en mejor bot de todos!!!
+ `.trim();
     
     conn.sendMessage(m.chat, {text: message}, {quoted: m});
 }; 

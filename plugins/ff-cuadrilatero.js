@@ -26,40 +26,39 @@ const handler = async (m, { conn, args }) => {
     }
 
     const message = `
-    _*CUADRILATERO*_
+    _*🔥🐺 CUADRILÁTERO LEGEND 🐺🔥*_
     
     𝐇𝐎𝐑𝐀𝐑𝐈𝐎
     🇲🇽 𝐌𝐄𝐗 : ${horaUsuario}
     🇨🇴 𝐂𝐎𝐋 : ${horaAdelantada}
     𝐂𝐎𝐋𝐎𝐑 𝐃𝐄 𝐑𝐎𝐏𝐀: ${colorRopa}
 
-    ¬ 𝐉𝐔𝐆𝐀𝐃𝐎𝐑𝐄𝐒 𝐏𝐑𝐄𝐒𝐄𝐍𝐓𝐄𝐒
-    
-          𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 1
-    
-    👑 ┇ 
-    🥷🏻 ┇  
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-          
-         𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 2
-    
-    👑 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
+👥 ESCUADRAS
 
-         𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 3
-    
-    👑 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    
-    ㅤʚ 𝐒𝐔𝐏𝐋𝐄𝐍𝐓𝐄:
-    🥷🏻 ┇ 
-    🥷🏻 ┇
-    `.trim();
+🔹 ESCUADRA 1 
+   👑 
+   🥷🏻 
+   🥷🏻 
+   🥷🏻
+
+🔸 ESCUADRA 2
+   👑 
+   🥷🏻 
+   🥷🏻 
+   🥷🏻 
+
+🔹 ESCUADRA 3
+   👑 
+   🥷🏻
+   🥷🏻 
+   🥷🏻 
+
+🔆 RESERVAS
+   🥷🏻 
+   🥷🏻
+
+santx bot, el mejor bot de todos!!!
+`.trim();
     
     conn.sendMessage(m.chat, {text: message}, {quoted: m});
 };

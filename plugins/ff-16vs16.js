@@ -26,47 +26,44 @@ const handler = async (m, { conn, args }) => {
     }
 
     const message = `
-    16 𝐕𝐄𝐑𝐒𝐔𝐒 16
+   *🔥🎮 LISTA DE 16VS16 🎮🔥*
     
     𝐇𝐎𝐑𝐀𝐑𝐈𝐎
     🇲🇽 𝐌𝐄𝐗 : ${horaUsuario}
     🇨🇴 𝐂𝐎𝐋 : ${horaAdelantada}
-    𝐂𝐎𝐋𝐎𝐑 𝐃𝐄 𝐑𝐎𝐏𝐀: ${colorRopa}
+    *🎨 COLOR*: ${colorRopa}
 
     ¬ 𝐉𝐔𝐆𝐀𝐃𝐎𝐑𝐄𝐒 𝐏𝐑𝐄𝐒𝐄𝐍𝐓𝐄𝐒
     
-          𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 1
-    
-    👑 ┇ 
-    🥷🏻 ┇  
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-          
-         𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 2
-    
-    👑 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
+⚔ ESCUADRA 1
+👑 
+🧸
+🧸
 
-         𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 3
-    
-    👑 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
+⚔ ESCUADRA 2
+👑 ✖
+🧸
+🧸
+🧸
 
-         𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 4
-    
-    👑 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    🥷🏻 ┇ 
-    
-    ㅤʚ 𝐒𝐔𝐏𝐋𝐄𝐍𝐓𝐄:
-    🥷🏻 ┇ 
-    🥷🏻 ┇
-    `.trim();
+⚔ ESCUADRA 3
+👑 
+🧸
+🧸
+🧸
+
+⚔ ESCUADRA 4
+👑 
+🧸
+🧸 
+🧸 
+
+🌌 RESERVAS
+🧸 
+🧸
+
+santx bot, el mejor bot!!!
+`.trim();
     
     conn.sendMessage(m.chat, {text: message}, {quoted: m});
 };

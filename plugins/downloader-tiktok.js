@@ -3,12 +3,12 @@ import axios from 'axios'
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-    if (!args[0])  m.reply(`🍭 Ingresa un enlace del vídeo de TikTok junto al comando.\n\nEjemplo:\n${usedPrefix + command} https://vm.tiktok.com/ZMMCYHnxf/`)
+    if (!args[0])  m.reply(`👑 Ingresa un enlace del vídeo de TikTok junto al comando.\n\nEjemplo:\n${usedPrefix + command} https://vm.tiktok.com/ZMMCYHnxf/`)
 
     try {
         let { title, published, quality, likes, commentCount, shareCount, views, dl_url } = await Scraper.tiktokdl(args[0])
             let txt = `╭─⬣「 *TikTok Download* 」⬣\n`
-                txt += `│  ≡◦ *🍭 Título* : ${title}\n`
+                txt += `│  ≡◦ *👑 Título* : ${title}\n`
                 txt += `│  ≡◦ *📅 Publicado* : ${published}\n`
                 txt += `│  ≡◦ *🪴 Calidad* : ${quality}\n`
                 txt += `│  ≡◦ *👍 Likes* : ${likes}\n`
@@ -26,7 +26,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         if (data.status) {
             const { author, view, comment, play, share, download, duration, title, video } = data.data;
             let txt = `╭─⬣「 *TikTok Download* 」⬣\n`
-                txt += `│  ≡◦ *🍭 Título* : ${title}\n`
+                txt += `│  ≡◦ *👑 Título* : ${title}\n`
                 txt += `│  ≡◦ *📚 Autor* : ${author.nickname}\n`
                 txt += `│  ≡◦ *🕜 Duración* : ${duration} Segundos\n`
                 txt += `│  ≡◦ *🌵 Descargas* : ${download}\n`
@@ -48,7 +48,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             const fileSize = convertBytesToMB(meta.media[0].size_org)
 
             let txt = `╭─⬣「 *TikTok Download* 」⬣\n`
-                txt += `│  ≡◦ *🍭 Título* : ${title}\n`
+                txt += `│  ≡◦ *👑 Título* : ${title}\n`
                 txt += `│  ≡◦ *🐢 Autor* : ${author.nickname}\n`
                 txt += `│  ≡◦ *🕜 Duración* : ${duration} Segundos\n`
                 txt += `│  ≡◦ *📹 Reproducciones* : ${repro}\n`

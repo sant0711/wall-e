@@ -32,7 +32,7 @@ const defaultMenu = {
 “ hello *%name*, Cómo se encuentra el día de hoy? ”
 
 ╭──⬣「 *Info User* 」⬣
-│  ≡◦ *🍭 Nombre ∙* %name
+│  ≡◦ *👑 Nombre ∙* %name
 │  ≡◦ *🍬 Dulces ∙* %limit
 │  ≡◦ *💫 XP ∙* %totalexp
 │  ≡◦ *🐢 Nivel ∙* %level

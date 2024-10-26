@@ -29,7 +29,7 @@ global.author = '{\n "bot": {\n   "name": "Santx - Bot ",\n     "author": "Sant"
 global.wait = '🐢 *Santx Bot*'
 global.botname = 'Santx - Bot '
 global.textbot = `Powered By  Sant Team`
-global.listo = '*🍭 Aqui tiene*'
+global.listo = '*👑 Aqui tiene*'
 global.namechannel = '【 ✯ Starlights Team - Oficial Chanel ✰ 】'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*

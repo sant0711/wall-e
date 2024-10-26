@@ -1,4 +1,4 @@
-<h1 align="center">‧ 🍭 Sumi Sakurasawa - MD 🍭 ‧
+<h1 align="center">‧ 👑 Santx Bot - MD 👑 ‧
 </p>
 <p>
         <img src= "https://tinyurl.com/258rd289">
@@ -76,7 +76,7 @@ npm start
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - Igna • Bot**</summary><img src="https://qu.ax/CqMG.jpg"></details>
 ------------------------
 ### 💎 FlarexCloud
-> Empiece a usar FlarexCloud para activar **🍭 Santx - Bot  - MD**
+> Empiece a usar FlarexCloud para activar **👑 Santx - Bot  - MD**
 
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
 ### Información sobre FlarexCloud
@@ -141,6 +141,6 @@ npm start
 <div align="center">
   <h1 align="center">Editor y Propietario del Bot</h1>
 
-<a href="https://github.com/DanielDiod"><img src="https://github.com/DanielDiod.png" width="300" height="300" alt="Daniel🇦🇱"/></a>
+<a href="https://github.com/DanielDiod"><img src="https://github.com/DanielDiod.png" width="300" height="300" alt="Sant 🇦🇱"/></a>
 
 `© Santx - bot / By Sant`

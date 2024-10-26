@@ -2,8 +2,8 @@ let cooldowns = {}
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-    if (!args[0]) return m.reply('🍭 Ingresa la cantidad de *🍬 Dulces* que deseas apostar.\n\n`Ejemplo:`\n' + `> *${usedPrefix + command}* 10`)
-    if (isNaN(args[0])) return m.reply('🍭 Ingresa la cantidad de *🍬 Dulces* que deseas apostar.\n\n`Ejemplo:`\n' + `> *${usedPrefix + command}* 10`)
+    if (!args[0]) return m.reply('👑 Ingresa la cantidad de *🍬 Dulces* que deseas apostar.\n\n`Ejemplo:`\n' + `> *${usedPrefix + command}* 10`)
+    if (isNaN(args[0])) return m.reply('👑 Ingresa la cantidad de *🍬 Dulces* que deseas apostar.\n\n`Ejemplo:`\n' + `> *${usedPrefix + command}* 10`)
     let apuesta = parseInt(args[0])
     let users = global.db.data.users[m.sender]
     

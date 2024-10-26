@@ -37,7 +37,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/DanielDiod/Sumi-Sakurasawa.git && cd Sumi-Sakurasawa
+git clone https://github.com/Santx07/Perfect.git && cd Sumi-Sakurasawa
 ```
 
 ```bash
@@ -127,7 +127,7 @@ npm start
 
 - Si tiene algún problema la bot contactame ฅ^•ﻌ•^ฅ
 
-* <a href="https://wa.me/51955918117"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/573132641948"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 ---------
 
@@ -143,4 +143,4 @@ npm start
 
 <a href="https://github.com/DanielDiod"><img src="https://github.com/DanielDiod.png" width="300" height="300" alt="Daniel🇦🇱"/></a>
 
-`© Sumi - Sakurasawa / By Daniel 🇦🇱`
+`© Santx - bot / By Sant`

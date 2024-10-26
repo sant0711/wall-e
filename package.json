@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/DanielDiod/Sumi-Sakurasawa",
+  "homepage": "https://github.com/Santx07/Perfect",
   "author": {
-    "name": "DanielDiod"
+    "name": "Sant xit"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielDiod/Sumi-Sakurasawa.git"
+    "url": "git+https://github.com/Santx07/Perfect.git"
   },
   "bugs": {
-    "url": "https://github.com/DanielDiod/Sumi-Sakurasawa/issues"
+    "url": "https://github.com/Santx07/Perfect/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {

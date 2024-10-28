@@ -56,6 +56,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       bot.antiPrivate = isEnable
       break
 
+      case 'antiinternacional': case 'antinternacional': case 'antinternational': case 'antifake': case 'antifalsos': case 'antivirtuales': case 'antiextranjeros':                
+      if (m.isGroup) {
+      if (!(isAdmin || isOwner)) {
+      global.dfail('admin', m, conn)
+      throw false
+      }}
+      chat.antifake = isEnable          
+      break
+
       case 'audios':
       if (m.isGroup) {
       if (!(isAdmin || isOwner)) {

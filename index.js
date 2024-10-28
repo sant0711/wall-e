@@ -1,4 +1,4 @@
-console.log('✯ Iniciando ✯')
+console.log('✯ Iniciando Sisked ✯')
 
 import { join, dirname } from 'path'
 import { createRequire } from 'module';
@@ -22,7 +22,7 @@ const rl = createInterface(process.stdin, process.stdout)
 const app = express()
 const port = process.env.PORT || 8080;
 
-say('Sumi\nSakurasawa', {
+say('Max\Bot', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})

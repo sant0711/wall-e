@@ -21,6 +21,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       }
       chat.bienvenida = isEnable
       break
+
+      case 'modoadmin': case 'soloadmin':
+      if (m.isGroup) {
+      if (!(isAdmin || isOwner)) {
+      global.dfail('admin', m, conn)
+      throw false
+      }}
+      chat.modoadmin = isEnable          
+      break
   
     case 'document':
     case 'documento':
@@ -36,6 +45,24 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
         }
       }
       chat.antiLink = isEnable
+      break
+
+      case 'antiprivado':
+      isAll = true
+      if (!isROwner) {
+      global.dfail('rowner', m, conn)
+      throw false
+      }
+      bot.antiPrivate = isEnable
+      break
+
+      case 'audios':
+      if (m.isGroup) {
+      if (!(isAdmin || isOwner)) {
+      global.dfail('admin', m, conn)
+      throw false
+      }}
+      chat.audios = isEnable          
       break
 
       case 'autoadmin':

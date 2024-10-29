@@ -10,11 +10,11 @@ import moment from 'moment-timezone'
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['573132641948', 'Sant xit 🇦🇱⁩👑', true],
+  ['50588586015', 'Sant xit 🇦🇱⁩👑', true],
   ['584123989549', 'Sisked God ⭐', true],
-  ['573132641948'],
-  ['573132641948'],
-  ['573132641948']
+  ['50588586015'],
+  ['50588586015'],
+  ['50588586015']
 ]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -25,9 +25,9 @@ global.prems = []
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = ``
-global.author = '{\n "bot": {\n   "name": "Santx - Bot ",\n     "author": "Sant",\n   "status_bot": "active"\n }\n}'
-global.wait = '🐢 *Santx Bot*'
-global.botname = 'Santx - Bot '
+global.author = '{\n "bot": {\n   "name": "𝑵𝑰𝑲𝑬 𝑩𝑶𝑻 ",\n     "author": "Sant",\n   "status_bot": "active"\n }\n}'
+global.wait = '🐢 *𝑵𝑰𝑲𝑬 𝑩𝑶𝑻*'
+global.botname = '𝑵𝑰𝑲𝑬 𝑩𝑶𝑻 '
 global.textbot = `Powered By  Sant Team`
 global.listo = '*👑 Aqui tiene*'
 global.namechannel = '【 ✯ Starlights Team - Oficial Chanel ✰ 】'

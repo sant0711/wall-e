@@ -1,7 +1,7 @@
-<h1 align="center">‧ 👑 Santx Bot - MD 👑 ‧
+<h1 align="center">‧ 👑 𝑵𝑰𝑲𝑬 𝑩𝑶𝑻 - MD 👑 ‧
 </p>
 <p>
-        <img src= "https://i.ibb.co/27rdXbJ/bot.jpg">
+        <img src= "https://i.ibb.co/nDPzv3r/nike-logo-980.jpg">
     </p>
     <p align="center">
         <a href="#"><img title="simple-whatsapp-bot" src="https://img.shields.io/badge/-SIMPLE--WHATSAPP--BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
@@ -37,7 +37,7 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/Santx07/Perfect.git && cd Santx - bot
+git clone https://github.com/cbuskvibuvakkb && cd 𝑵𝑰𝑲𝑬 𝑩𝑶𝑻
 ```
 
 ```bash
@@ -76,7 +76,7 @@ npm start
 - [x] **Configuración** <details><summary>**Ajustes del Servidor - Igna • Bot**</summary><img src="https://qu.ax/CqMG.jpg"></details>
 ------------------------
 ### 💎 FlarexCloud
-> Empiece a usar FlarexCloud para activar **👑 Santx - Bot  - MD**
+> Empiece a usar FlarexCloud para activar **👑 𝑵𝑰𝑲𝑬 𝑩𝑶𝑻  - MD**
 
 <a href="https://www.flarex.cloud"><img src="https://cdn.flarex.cloud/deploy.png" height="60px"></a>
 ### Información sobre FlarexCloud
@@ -100,7 +100,7 @@ npm start
 ```bash
 𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐎𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐔𝐍𝐎 𝐏𝐎𝐑 𝐔𝐍𝐎:
 > cd 
-> cd Santx - bot
+> cd 𝑵𝑰𝑲𝑬 𝑩𝑶𝑻
 > npm start
 ```
 -------
@@ -127,7 +127,7 @@ npm start
 
 - Si tiene algún problema la bot contactame ฅ^•ﻌ•^ฅ
 
-* <a href="https://wa.me/573132641948"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+* <a href="https://wa.me/50588586015"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 ---------
 
@@ -143,4 +143,4 @@ npm start
 
 <a href="https://github.com/DanielDiod"><img src="https://github.com/DanielDiod.png" width="300" height="300" alt="Sant 🇦🇱"/></a>
 
-`© Santx - bot / By Sant`
+`© 𝑵𝑰𝑲𝑬 𝑩𝑶𝑻 / By Sant`

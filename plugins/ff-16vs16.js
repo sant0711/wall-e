@@ -62,7 +62,7 @@ const handler = async (m, { conn, args }) => {
 🧸 
 🧸
 
-santx bot, el mejor bot!!!
+𝑵𝑰𝑲𝑬 𝑩𝑶𝑻, el mejor bot!!!
 `.trim();
     
     conn.sendMessage(m.chat, {text: message}, {quoted: m});

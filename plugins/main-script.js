@@ -22,6 +22,6 @@ await m.react('✖️')
 }}
 handler.help = ['script']
 handler.tags = ['main']
-handler.command = ['script', 'sc']
+handler.command = ['scribjsbjbifpt', 'shihisoffsc']
 handler.register = true 
 export default handler

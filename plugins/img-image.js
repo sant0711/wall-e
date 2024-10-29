@@ -1,7 +1,7 @@
 import Scraper from "@SumiFX/Scraper"
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) return m.reply('👑 Ingresa el nombre de la imágen que estas buscando.\n\n`Ejemplo:`\n' + `> *${usedPrefix + command}* Santx Bot Icons`)
+if (!text) return m.reply('👑 Ingresa el nombre de la imágen que estas buscando.\n\n`Ejemplo:`\n' + `> *${usedPrefix + command}* 𝑵𝑰𝑲𝑬 𝑩𝑶𝑻 Icons`)
 try {
 let { dl_url } = await Scraper.GoogleImage(text)
 await conn.sendFile(m.chat, dl_url, 'thumbnail.jpg', null, m)

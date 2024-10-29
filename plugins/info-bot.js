@@ -5,7 +5,7 @@ handler.all = async function(m) {
 const chat = global.db.data.chats[m.chat];
 if (chat.isBaneed) return
 if (/^bot$/i.test(m.text)) {
-conn.reply(m.chat, `🖤😉 ¡Hola! Soy 𝑵𝑰𝑲𝑬 - 𝑩𝑶𝑻, en que puedo ayudarte hoy?\n\n✰ Usa *.menu* para ver mis comandos.`, m, rcanal, )
+conn.reply(m.chat, `🖤😉 ¡Hola! Soy 𝐖𝐀𝐋𝐋 - 𝐄, en que puedo ayudarte hoy?\n\n✰ Usa *.menu* para ver mis comandos.`, m, rcanal, )
 }
   
 if (/^.bermuda/i.test(m.text)) {

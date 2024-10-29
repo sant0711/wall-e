@@ -1,5 +1,5 @@
 {
-  "name": "𝑵𝑰𝑲𝑬 𝑩𝑶𝑻",
+  "name": "𝐖𝐀𝐋𝐋 - 𝐄",
   "version": "5.0.0",
   "description": "Simple WhatsApp Bot Multi Device",
   "main": "index.js",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Santx07/Perfect",
   "author": {
-    "name": "Sant xit"
+    "name": "lalito"
   },
   "repository": {
     "type": "git",
